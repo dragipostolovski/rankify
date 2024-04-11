@@ -1,0 +1,17 @@
+.c-rankify {
+    margin-bottom: 18px;
+}
+
+.c-rankify__inner {
+    border: 1px solid rgba(9, 30, 66, .141);
+    padding: 20px;
+}
+
+.c-rankify__question {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.c-rankify__answers button {
+    width: 140px;
+}
