@@ -135,8 +135,8 @@ class Rankify {
      * @return void
      */
     public function admin_enqueue_scripts() {
-        wp_enqueue_style( $this->plugin_domain . 'admin-style', plugins_url('../../assets/css/admin.css', __FILE__), array() );
-        wp_enqueue_script( $this->plugin_domain . 'admin-script', plugins_url( '../../assets/js/admin.js', __FILE__ ), array(),  $this->version, array( 'strategy' => 'defer', 'in_footer' => false ) );
+        wp_enqueue_style( $this->plugin_domain . 'admin-style', plugins_url('../assets/css/admin.css', __FILE__), array() );
+        wp_enqueue_script( $this->plugin_domain . 'admin-script', plugins_url( '../assets/js/admin.js', __FILE__ ), array(),  $this->version, array( 'strategy' => 'defer', 'in_footer' => false ) );
     }
 
     /**
